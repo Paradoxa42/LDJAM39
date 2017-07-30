@@ -99,7 +99,6 @@ if (state == 0) {
         speed = 0
         if (reload_range == reload_range_max) {
             sprite_index = spr_enemy_real_attack;
-            audio_play_sound(snd_enemy_shoot, 5, false);
             proj = instance_create(x, y, obj_atk_enemy_range)
             proj.d = point_direction(x, y, hero.x, hero.y);
             reload_range = 0
@@ -195,7 +194,6 @@ if (state == 0) {
     {
         if (reload_charge == reload_charge_max) {
             sprite_index = spr_enemy_shadow_attack
-            audio_play_sound(snd_enemy_melee, 1, false);
             dist_charge = d;
             move_towards_point(hero.x, hero.y, charge_speed);
             state = 1;

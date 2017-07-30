@@ -119,7 +119,6 @@ if (global.world == 0)
 if (mouse_check_button_pressed(mb_left) &amp;&amp; state == 0) {
         state = 1;
         sprite_index = spr_hero_real_atk;
-        audio_play_sound(snd_hero_melee, 1, false);
         d = point_direction(x, y, mouse_x, mouse_y)
         gap = 35
        if (d &gt; 45 &amp;&amp; d &lt;= 135)
@@ -220,8 +219,6 @@ if (mouse_check_button(mb_left))
 {
     if (v_weapon == c_weapon) {
         state = 1;
-        sprite_index = spr_hero_shadow_atk;
-        audio_play_sound(snd_hero_shoot, 1, false);
         instance_create(x, y, obj_atk_hero_dist);
         v_weapon = 0;
     }

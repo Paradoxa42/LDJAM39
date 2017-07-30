@@ -4,14 +4,7 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound">
-    <sound>sound\snd_hero_melee</sound>
-    <sound>sound\snd_enemy_shoot</sound>
-    <sound>sound\snd_hero_shoot</sound>
-    <sound>sound\snd_spaw</sound>
-    <sound>sound\snd_enemy_melee</sound>
-    <sound>sound\snd_music</sound>
-  </sounds>
+  <sounds name="sound"/>
   <sprites name="sprites">
     <sprites name="Hero">
       <sprite>sprites\spr_hero</sprite>

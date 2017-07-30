@@ -23,8 +23,7 @@ global.color_filter_blend = bm_zero;
 global.chain = 0;
 score = 0
 global.boss = false
-global.reduction = 2
-audio_play_sound(snd_music,2,true)</code>
+global.reduction = 2</code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
